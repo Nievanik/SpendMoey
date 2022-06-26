@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+#head{
+    /* border: 2px solid red; */
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    /* background-color: #fff; */
+}
+#body{
+    /* border: 2px solid black; */
+    width: 1000px;
+    margin: 2rem auto;
+    /* background-color: #fff; */
+}
+.title{
+    /* border: 2px solid red; */
+    /* background-color: #fff; */
+    text-align: center;
+    padding: 30px;
+}
+.title h1{
+    /* background-color: #fff; */
+    font-weight: bold;
+    margin: 20px;
+}
+.title img{
+    border-radius: 50%;
+    width: 110px;
+    height: 130px;
+}
+
+#cash{
+    
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 10px;
+    background-color: rgba(52, 196, 47, 0.938);
+    padding: 10px 0;
+    position: sticky;
+    top: 10px;
+}
+#cash .dollar{
+    display: inline;
+    background-color: rgba(52, 196, 47, 0.938);
+}
+#cash .amount{
+    
+    background-color: rgba(52, 196, 47, 0.938);
+    display: inline;
+    
+}
+
+#items{
+    margin-top: 10px;
+    
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0px, 1fr));
+    gap: 10px;
+    
+}
+
+#items .goods{
+    /* background-color:white; */
+    text-align: center;
+    padding: 20px;
+}
+#items .goods h3{
+    color: rgba(52, 196, 47, 0.938);
+
+}
+
+#items .goods img{
+    width: 120px;
+    height: 124px;
+}
+#items .xl img{
+    width: 225px;
+}
+.bg{
+    background-color: white;
+}
+.buy{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px;
+    /* border: 2px solid red; */
+    
+}
+
+.buy .btn{
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.buy .btn1{
+    
+    background-color: rgba(0, 0, 0, .1);
+}
+.buy .btn1:hover{
+    
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.buy .btn2{
+    
+    background-color: rgba(52, 196, 47, 0.938);
+    color: white;
+}
+
+.buy .btn2:hover{
+    
+    background-color: rgba(41, 153, 37, 0.938);
+    ;
+}
+.buy .num{
+    border: 1px solid black;
+    padding: 8px 5px;
+    margin: 0 5px;
+    font-size: 20px;
+}
